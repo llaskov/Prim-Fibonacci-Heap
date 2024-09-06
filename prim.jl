@@ -60,6 +60,7 @@ end
 # srce          source vertex
 # return        dist   vector of min weight of a connecting edge with constructing MST
 #               pred   vector of predecessors
+#               vstd   Boolean array that stores whether vertex is visited 
 function initsingsrc(numb::Int64, srce::Int64)
     dist = Vector{Union{Nothing, Float64}}(nothing, numb)
     pred = Vector{Union{Nothing, Int64}}(nothing, numb)
@@ -132,7 +133,7 @@ function prim(
 end
 
 # input adjacency matrix of the graph
-in_adj_mtrx = readdlm("mtrx5.txt", Int64)
+in_adj_mtrx = readdlm("mtrx10.txt", Int64)
 println("Graph input adjacency matrix:")
 display(in_adj_mtrx)
 println()
