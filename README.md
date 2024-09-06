@@ -10,5 +10,5 @@ Contains the implementation of the Fibonacci heap.
 Contain the implementation of the Prim's algorithm.
 
 ## mtrx[n].txt
-Contains a $n \times n$ adjacency matrix of an example graph. The file mtrx9.txt contains the example given in the faous book T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, Introduction
+Contains a $n \times n$ adjacency matrix of an example graph. The file mtrx9.txt contains the example given in the famous book T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, Introduction
 to algorithms, 4th ed. MIT Press, 2022.
